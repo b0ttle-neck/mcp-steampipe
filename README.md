@@ -30,6 +30,8 @@ This is an awesome tool for testing your if your MCP server is working as expect
 
 ## Running the tool
 Pretty straightforward. Just run the interceptor and make sure the tool is working from the directory. Then add the server configuration to the respective LLM and select the tool from the LLM. 
+![Screenshot 2025-04-06 at 11 53 23 PM](https://github.com/user-attachments/assets/f119615e-115f-4ab0-b32d-57dbfbd0cfb1)
+![Screenshot 2025-04-06 at 11 55 21 PM](https://github.com/user-attachments/assets/9f268531-2538-4232-857d-37d1d067aefc)
 
 ## TroubleShooting
 
