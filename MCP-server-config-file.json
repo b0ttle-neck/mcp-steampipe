@@ -1,0 +1,21 @@
+{
+  "mcpServers": {
+    "steampipe": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "/Users/yourname/dev/mcp-steampipe", // <-- REPLACE THIS ABSOLUTE PATH
+        "run",
+        "steampipe_mcp_server.py"
+      ],
+      "env": {
+        // Optional: If steampipe relies on specific env vars not inherited
+        // "STEAMPIPE_INSTALL_DIR": "/path/to/steampipe/installation",
+        // "PATH": "/Users/yourname/.steampipe/bin:/usr/local/bin:/usr/bin:/bin" // Example if PATH issues arise
+      }
+    }
+    // You can add other servers here if needed
+    // ,
+    // "another_server": { ... }
+  }
+}
